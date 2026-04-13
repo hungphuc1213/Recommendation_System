@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project Jupyter Notebooks (Vì web chỉ cần file python và file csv/pkl)
+*.ipynb
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Thư mục log & text thừa
+*.txt
+!requirements.txt
+*.log
+deploy_olist/
+eda_*.txt
+nb_*.txt
+
+# Nếu bạn không muốn up các file Markdown phân tích & hình ảnh cũ:
+*.md
+*.png
